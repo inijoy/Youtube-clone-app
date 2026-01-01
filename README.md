@@ -1,9 +1,28 @@
-# Build and Deploy a Modern YouTube Clone Application in React JS with Material UI 5
+⚙️ Setup Environment Variables
 
-![YouTube](https://i.ibb.co/4R5RkmW/Thumbnail-5.png)
+This project uses environment variables for API keys and secrets. Do not commit your .env.local.
 
-### Showcase your dev skills with practical experience and land the coding career of your dreams
-💻 JS Mastery Pro - https://jsmastery.pro/youtube
-✅ A special YOUTUBE discount code is automatically applied!
+Steps
 
-📙 Get the Ultimate Frontend & Backend Development Roadmaps, a Complete JavaScript Cheatsheet, Portfolio Tips, and more - https://www.jsmastery.pro/links
+Copy the example file:
+
+# Mac/Linux
+cp .env.example .env.local
+
+# Windows PowerShell
+copy .env.example .env.local
+
+
+Edit .env.local with your own keys:
+
+API_KEY=your_api_key_here
+ANOTHER_SECRET=your_secret_here
+
+
+Run the project:
+
+npm install
+npm start
+
+
+⚠️ .env.local is ignored by Git, so your secrets stay safe.
